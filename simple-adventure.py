@@ -39,7 +39,7 @@ while True:
                     print(f"You attack the beast and deal {damage} damage.")
                     print(f'The beast\'s health is: {beast_health}')
                     print('THE BEAST ATTACKS BACK')
-                    damage = random.randint(10, 20)
+                    damage = random.randint(15, 25)
                     print(f"The beast attacks you and deals {damage} damage.")
                     player_health -= damage
                     print(f'Your health is: {player_health}')
@@ -96,7 +96,7 @@ while True:
                     print(f"You attack the thief and deal {damage} damage.")
                     print(f'The thief\'s health is: {thief_health}')
                     print('THE THIEF ATTACKS BACK')
-                    damage = random.randint(10, 20)
+                    damage = random.randint(15, 25)
                     print(f"The thief attacks you and deals {damage} damage.")
                     player_health -= damage
                     print(f'Your health is: {player_health}')
@@ -123,6 +123,7 @@ while True:
             else:
                 print("You were defeated by the thief. Game over.")
             break
+        
 
         # Run away
         else:
@@ -153,7 +154,7 @@ while True:
                     print(f"You attack the eagle and deal {damage} damage.")
                     print(f'The eagle\'s health is: {eagle_health}')
                     print('THE EAGLE ATTACKS BACK')
-                    damage = random.randint(10, 20)
+                    damage = random.randint(15, 25)
                     print(f"The eagle attacks you and deals {damage} damage.")
                     player_health -= damage
                     print(f'Your health is: {player_health}')
